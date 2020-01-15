@@ -1,4 +1,4 @@
-# donorschoose-predicting-success-of-project-proposals
+# DonorsChoose.org Application Screening
 ## *Can you predict whether teachers' project proposals are accepted?*
 
 
