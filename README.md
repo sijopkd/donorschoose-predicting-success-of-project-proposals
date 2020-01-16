@@ -24,29 +24,14 @@ Features from text:
 3) Glove vectors 
 
 Models Built:
-1) KNN using the following features 
-+-------------------------+-------------+-----------------+-------+
-|        Vectorizer       |    Model    | Hyper parameter |  AUC  |
-+-------------------------+-------------+-----------------+-------+
-|           BOW           |    Brute    |        51       | 0.598 |
-|          TFIDF          |    Brute    |        41       | 0.540 |
-|       AvgWord2Vec       |    Brute    |        41       | 0.576 |
-| TFIDF weighted Word2Vec |    Brute    |        31       | 0.594 |
-|          TFIDF          | SelectKBest |        51       | 0.531 |
-+-------------------------+-------------+-----------------+-------+
+1) KNN
+![Image description](knn.png) <br />
+
 2) Logistic Regression 
-+------------------------------------+-------+-----------------+--------+
-|             Vectorizer             | Model | Hyper parameter |  AUC   |
-+------------------------------------+-------+-----------------+--------+
-|                BOW                 | Brute |      0.009      | 0.721  |
-|               TFIDF                | Brute |     0.000155    | 0.706  |
-|            AvgWord2Vec             | Brute |     0.00055     | 0.6788 |
-|      TFIDF weighted Word2Vec       | Brute |      0.0008     | 0.687  |
-| Categorical and Numerical features | Brute |      0.236      |  0.60  |
-+------------------------------------+-------+-----------------+--------+
+![Image description](lr.png) <br />
 
 3) Naive Bayes
-
+![Image description](nb.png) <br />
 
 ## Results 
 
