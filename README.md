@@ -25,13 +25,13 @@ Features from text:
 
 Models Built:
 1) KNN
-![Image description](knn.png) <br />
+![Image description](knn.PNG) <br />
 
 2) Logistic Regression 
-![Image description](lr.png) <br />
+![Image description](lr.PNG) <br />
 
 3) Naive Bayes
-![Image description](nb.png) <br />
+![Image description](nb.PNG) <br />
 
 ## Results 
 
