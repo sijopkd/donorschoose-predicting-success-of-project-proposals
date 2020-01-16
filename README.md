@@ -25,15 +25,15 @@ Features from text:
 
 Models Built:
 1) KNN using the following features 
-+-------------------------+-------------+-----------------+-------+
-|        Vectorizer       |    Model    | Hyper parameter |  AUC  |
-+-------------------------+-------------+-----------------+-------+
-|           BOW           |    Brute    |        51       | 0.598 |
-|          TFIDF          |    Brute    |        41       | 0.540 |
-|       AvgWord2Vec       |    Brute    |        41       | 0.576 |
-| TFIDF weighted Word2Vec |    Brute    |        31       | 0.594 |
-|          TFIDF          | SelectKBest |        51       | 0.531 |
-+-------------------------+-------------+-----------------+-------+
++-------------------------+-------------+-----------------+-------+<br />
+|        Vectorizer       |    Model    | Hyper parameter |  AUC  |<br />
++-------------------------+-------------+-----------------+-------+<br />
+|           BOW           |    Brute    |        51       | 0.598 |<br />
+|          TFIDF          |    Brute    |        41       | 0.540 |<br />
+|       AvgWord2Vec       |    Brute    |        41       | 0.576 |<br />
+| TFIDF weighted Word2Vec |    Brute    |        31       | 0.594 |<br />
+|          TFIDF          | SelectKBest |        51       | 0.531 |<br />
++-------------------------+-------------+-----------------+-------+<br />
 2) Logistic Regression 
 +------------------------------------+-------+-----------------+--------+
 |             Vectorizer             | Model | Hyper parameter |  AUC   |
