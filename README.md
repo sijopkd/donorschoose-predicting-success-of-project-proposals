@@ -25,6 +25,11 @@ Features from text:
 
 Models Built:
 1) KNN
+2) Logistic Regression
+3) Naive Bayes 
+
+## Results 
+1) KNN
 
 ![Image description](knn.PNG) <br />
 
@@ -35,6 +40,4 @@ Models Built:
 3) Naive Bayes
 
 ![Image description](nb.PNG) <br />
-
-## Results 
 
